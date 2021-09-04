@@ -1,0 +1,145 @@
+:root {
+    --while-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+    --border-color: #dbdbdb;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+/* Responsive */
+
+.grid {
+    width: 1300px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid__full-width {
+    width: 100%;
+}
+
+.grid__row {
+    display: flex;
+    margin-left: 43px;
+    margin-right: 43px;
+}
+
+.grid__row-1 {
+    display: flex;
+    margin-left: 23px;
+    margin-right: 43px;
+}
+
+.grid__row-body {
+    display: flex;
+    margin-left: -45px;
+    margin-right: -45px;
+}
+
+.grid__row-2{
+    display: flex;
+    margin-left: 60px;
+    margin-right: 83px;
+}
+
+
+/* test */
+
+.grid__column-2 {
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 16.6667%;
+}
+
+.grid__column-2-2 {
+    width: 50%;
+}
+
+.grid__column-3 {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 33.3334%;
+}
+
+.grid__column-4-1 {
+    padding-left: 1px;
+    padding-right: 15px;
+    width: 50%;
+}
+
+.grid__column-4-3 {
+    padding-left: 1px;
+    padding-right: -43px;
+    width: 16.6667%;
+}
+
+.grid__column-3-1 {
+    padding-left: 59px;
+    padding-right: 15px;
+    width: 33.3334%;
+}
+
+.grid__column-3-2 {
+    padding-left: 37px;
+    padding-right: 37px;
+    width: 66.6667%;
+}
+
+.grid__column-9 {
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 75%;
+}
+
+.grid__column-1 {
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 8.3334;
+}
+
+/* button */
+.btn {
+    min-width: 130px;
+    height: 36px;
+    border-radius: 30px;
+}
+
+.btn--primary {
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    height: 26px;
+    color: var(--while-color);
+    letter-spacing: 1px;
+    min-width: 130px;
+    height: 26px;
+    margin-top: 10px;
+    line-height: 26px;
+    font-size: 1.4rem;
+    border-radius: 30px;
+    padding: 0px 20px;
+}
+
+.btn-book-now {
+    background-color: #ba71da;
+    padding: 10px 20px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
